@@ -1,36 +1,48 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Simple Task Manager
 
-First, run the development server:
+## Coding Test:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Objective:
+- Develop a straightforward task management application. The emphasis is on core functionality and a user-friendly interface.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Core Features:
+- Dashboard: P2
+  - Upon accessing the application, users see a basic dashboard displaying a list of tasks.
+  - Include sections for upcoming tasks, overdue tasks, and completed tasks.
+- Task Management: P1
+  - Users can add, edit, and delete tasks.
+  - Tasks should include a title, description, due date, priority level.
+- Priority Levels: P3
+  - Define three priority levels for tasks (e.g., High, Medium, Low).
+  - Users can set and update the priority of each task.
+- Search and Filter: P4
+  - Implement a search functionality to find tasks quickly.
+  - Allow users to filter tasks based on priority and completion status.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Technical Requirements:
+- Frontend
+  - Use a lightweight frontend framework (e.g., Vanilla JavaScript, React, or Vue.js).
+  - Implement a simple and clean user interface.
+- Local Storage
+  - Store task data locally using browser storage (localStorage or sessionStorage).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technical Questions:
+Please answer the following questions in a markdown file called: Answers to technical questions.md.
 
-## Learn More
+- How long did you spend on the coding test? 
+- What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
+- How would you track down a performance issue in production? Have you ever had to do this?
+- If you had more time, what additional features or improvements would you consider adding to the task management application?
 
-To learn more about Next.js, take a look at the following resources:
+## Submission Guidelines:
+- Code Submission:
+  - You are expected to submit a well-organised codebase via a version control system (e.g., GitHub).
+  - Include clear instructions on setting up and running the application.
+- Documentation:
+  - Include a README.md file with an overview of the project, setup instructions, and any additional information.
+  - Document any assumptions made during the development process.
+- Demo:
+  - Optionally, you may provide a link to a live demo of the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
